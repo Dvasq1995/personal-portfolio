@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box; /* For less hassle sizing */
+}
+
+/* Using Google font, fallback to sans-serif */
+body {
+  background-color: #3b3a30;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Removes text decoration for ALL links on site (keep that in mind), and adds some extra styling */
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #3b3a30;
+}
+
+/* This is for centering, might have messed up here. Need to research more on centering*/
+
+div {
+  margin: auto;
+}
+
+/* .center and img are to center and properly size an image. Got help from w3schools */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.white-text {
+  color: white;
+}
+
+/* Aligns text content within divs */
+header,
+footer,
+.text-center {
+  text-align: center;
+}
+
+main > div {
+  background-color: #eaece5;
+}
+
+/* Problem area, not sure if this was the appropriate way to center the article. Will ask mentor. */
+article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50%;
+  transform: translateX(-25%);
+}
+
+/* Adjust width so content doesn't stretch out*/
+article > section {
+  width: 500px;
+}
