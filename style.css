@@ -15,6 +15,12 @@ a:link {
   color: #3b3a30;
 }
 
+a:hover {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
 /* This is for centering, might have messed up here. Need to research more on centering*/
 
 div {
